@@ -1,0 +1,15 @@
+uuid: dcf435e7-6be0-4c82-ba3f-0176a56d2d94
+langcode: tr
+status: true
+dependencies: {  }
+name: mobil_manset_400x320
+label: 'Mobil Manşet 400x320'
+effects:
+  f5754b19-1248-4e48-b509-3e22ab9ba337:
+    uuid: f5754b19-1248-4e48-b509-3e22ab9ba337
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 400
+      height: 320
+      anchor: center-center

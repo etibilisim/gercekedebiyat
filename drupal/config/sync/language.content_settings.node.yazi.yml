@@ -1,0 +1,11 @@
+uuid: a46aa0c1-a4f2-4262-a1b0-3c021e2a6488
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.yazi
+id: node.yazi
+target_entity_type_id: node
+target_bundle: yazi
+default_langcode: site_default
+language_alterable: false

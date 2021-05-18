@@ -1,0 +1,15 @@
+uuid: 4c55d4ae-e328-4e4b-837b-0a1a7e42ac3b
+langcode: tr
+status: true
+dependencies: {  }
+name: kitap_dergi_370x540
+label: 'Kitap & Dergi 370x540'
+effects:
+  7105d142-8620-4554-9cce-1f236d36b48f:
+    uuid: 7105d142-8620-4554-9cce-1f236d36b48f
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 370
+      height: 540
+      anchor: center-center

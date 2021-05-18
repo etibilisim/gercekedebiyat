@@ -1,0 +1,30 @@
+uuid: 9602b6c8-1382-44e9-9079-1a412a61e7df
+langcode: tr
+status: true
+dependencies:
+  config:
+    - views.view.yazilar
+  module:
+    - system
+    - views
+  theme:
+    - conference_lite
+id: views_block__yazilar_block_2
+theme: conference_lite
+region: content
+weight: -7
+provider: null
+plugin: 'views_block:yazilar-block_2'
+settings:
+  id: 'views_block:yazilar-block_2'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,11 @@
+uuid: 20e03eba-cdbc-4632-9777-a30326cce261
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.kose_yazisi
+id: node.kose_yazisi
+target_entity_type_id: node
+target_bundle: kose_yazisi
+default_langcode: site_default
+language_alterable: false

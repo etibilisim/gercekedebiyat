@@ -1,0 +1,14 @@
+uuid: 6f8027e7-52ec-409e-bc7e-8a6286e0004e
+langcode: tr
+status: true
+dependencies:
+  config:
+    - user.role.site_yoneticisi
+  module:
+    - user
+id: user_add_role_action.site_yoneticisi
+label: 'Site Yöneticisi rolünü seçili kullanıcı(lar)a ekleyin.'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: site_yoneticisi

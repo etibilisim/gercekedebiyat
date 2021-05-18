@@ -1,0 +1,27 @@
+uuid: b30db16a-2ed0-4855-90cc-bd98b2bb1afc
+langcode: tr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - conference_lite
+_core:
+  default_config_hash: S-y9o4BFwgSGBIZ9ynn1hHzxajvMcM1l5hjGsFSxH3Y
+id: conference_lite_page_title
+theme: conference_lite
+region: content
+weight: -12
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

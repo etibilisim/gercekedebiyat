@@ -1,0 +1,30 @@
+uuid: 214761da-6348-4888-a31d-647b71eda676
+langcode: tr
+status: true
+dependencies:
+  config:
+    - views.view.surmanset
+  module:
+    - system
+    - views
+  theme:
+    - conference_lite
+id: views_block__surmanset_block_1
+theme: conference_lite
+region: content_top
+weight: -21
+provider: null
+plugin: 'views_block:surmanset-block_1'
+settings:
+  id: 'views_block:surmanset-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

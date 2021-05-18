@@ -1,0 +1,31 @@
+uuid: fade0213-a476-40e0-963f-9b2d62c67b8a
+langcode: tr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7b83ecd0-1574-4eba-977f-b65286ceb7e5'
+  module:
+    - block_content
+    - system
+  theme:
+    - conference_lite
+id: reklam1mansetalti
+theme: conference_lite
+region: content_top
+weight: 0
+provider: null
+plugin: 'block_content:7b83ecd0-1574-4eba-977f-b65286ceb7e5'
+settings:
+  id: 'block_content:7b83ecd0-1574-4eba-977f-b65286ceb7e5'
+  label: 'Reklam 1 Manşet Altı'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

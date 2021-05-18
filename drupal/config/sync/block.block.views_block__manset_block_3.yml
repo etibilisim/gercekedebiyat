@@ -1,0 +1,30 @@
+uuid: 7d13c13c-2db3-4aa7-8a10-8e7fbade2902
+langcode: tr
+status: true
+dependencies:
+  config:
+    - views.view.manset
+  module:
+    - system
+    - views
+  theme:
+    - conference_lite
+id: views_block__manset_block_3
+theme: conference_lite
+region: content_top
+weight: -18
+provider: null
+plugin: 'views_block:manset-block_3'
+settings:
+  id: 'views_block:manset-block_3'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,13 @@
+uuid: e65f8f0c-a3db-4297-9537-85ab296f7a6b
+langcode: tr
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: DyypzTfThX10FFQw-399qPfEbLLyrhXgQrKPVsmAoJ4
+id: user_block_user_action
+label: 'Seçilmiş kullanıcıları engelle'
+type: user
+plugin: user_block_user_action
+configuration: {  }

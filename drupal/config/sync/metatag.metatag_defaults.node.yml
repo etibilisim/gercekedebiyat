@@ -1,0 +1,30 @@
+uuid: 0dc735fa-906f-4f04-94e7-36e4b5a7e05a
+langcode: tr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: rpwvgyEURXLz_JjgMCrkS1rUv-0k3L79BpO-ReN7fDI
+id: node
+label: İçerik
+tags:
+  image_src: '[node:field_one_cikan_gorsel]'
+  robots: 'index, follow'
+  title: '[node:title] | [site:name]'
+  canonical_url: '[node:url]'
+  description: '[node:summary]'
+  og_image_url: '[node:field_one_cikan_gorsel:entity:url]'
+  og_image_secure_url: '[node:field_one_cikan_gorsel:entity:url]'
+  og_description: '[node:field_spot]'
+  og_url: '[node:url:absolute]'
+  og_title: '[node:title] | [site:name]'
+  og_image_width: '[node:field_one_cikan_gorsel:width]'
+  og_image: '[node:field_one_cikan_gorsel]'
+  og_image_height: '[node:field_one_cikan_gorsel:height]'
+  og_site_name: '[site:name]'
+  twitter_cards_page_url: '[node:url:absolute]'
+  twitter_cards_description: '[node:field_spot]'
+  twitter_cards_image_width: '[node:field_one_cikan_gorsel:width]'
+  twitter_cards_image: '[node:field_one_cikan_gorsel:entity:url]'
+  twitter_cards_title: '[node:title] | [site:name]'
+  twitter_cards_type: summary
+  twitter_cards_image_height: '[node:field_one_cikan_gorsel:height]'

@@ -1,0 +1,31 @@
+uuid: 41caf68f-31e6-4c53-91a6-0dee0d328e7b
+langcode: tr
+status: true
+dependencies:
+  config:
+    - views.view.yazarin_diger_yazilari
+  module:
+    - system
+    - views
+  theme:
+    - conference_lite
+id: views_block__yazarin_diger_yazilari_block_1
+theme: conference_lite
+region: sidebar_second
+weight: -18
+provider: null
+plugin: 'views_block:yazarin_diger_yazilari-block_1'
+settings:
+  id: 'views_block:yazarin_diger_yazilari-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '/kose-yazisi/*'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,11 @@
+uuid: 09b88ccf-8ec0-4c0e-944b-44084aa5328d
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.video_icerik
+id: node.video_icerik
+target_entity_type_id: node
+target_bundle: video_icerik
+default_langcode: site_default
+language_alterable: false

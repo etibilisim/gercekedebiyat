@@ -1,0 +1,18 @@
+uuid: 1704a0a0-56bc-4384-826c-ddde18d5cc22
+langcode: tr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: pq_mEIu_B4widZN7Ap81iCJSjShFFdcL0jEiCi8VrDk
+id: anonymous
+label: 'Konuk kullanıcı'
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'access user profiles'
+  - 'post comments'
+  - 'search content'
+  - 'view media'

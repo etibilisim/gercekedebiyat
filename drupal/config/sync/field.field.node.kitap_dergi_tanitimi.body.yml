@@ -1,0 +1,23 @@
+uuid: ee1faabb-574c-4549-ae8d-e0b4d33e9431
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.kitap_dergi_tanitimi
+  module:
+    - text
+id: node.kitap_dergi_tanitimi.body
+field_name: body
+entity_type: node
+bundle: kitap_dergi_tanitimi
+label: 'Yazı Alanı'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

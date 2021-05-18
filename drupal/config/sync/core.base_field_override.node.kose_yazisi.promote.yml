@@ -1,0 +1,22 @@
+uuid: 8952bbd3-77e6-4278-b26e-75ba1fdd55e3
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.kose_yazisi
+id: node.kose_yazisi.promote
+field_name: promote
+entity_type: node
+bundle: kose_yazisi
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,23 @@
+uuid: a15c7877-5ff3-4c2f-bd00-b230b4f579fb
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.video_icerik
+  module:
+    - text
+id: node.video_icerik.body
+field_name: body
+entity_type: node
+bundle: video_icerik
+label: 'Yazı Alanı'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

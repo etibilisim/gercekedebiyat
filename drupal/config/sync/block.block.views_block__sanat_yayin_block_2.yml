@@ -1,0 +1,30 @@
+uuid: 18594496-97ba-43d6-977b-512907ef2197
+langcode: tr
+status: true
+dependencies:
+  config:
+    - views.view.sanat_yayin
+  module:
+    - system
+    - views
+  theme:
+    - conference_lite
+id: views_block__sanat_yayin_block_2
+theme: conference_lite
+region: featured_top
+weight: -15
+provider: null
+plugin: 'views_block:sanat_yayin-block_2'
+settings:
+  id: 'views_block:sanat_yayin-block_2'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

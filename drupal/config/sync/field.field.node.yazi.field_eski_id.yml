@@ -1,0 +1,19 @@
+uuid: 6fbe219a-e9b7-45f8-8282-2dbd63024169
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_eski_id
+    - node.type.yazi
+id: node.yazi.field_eski_id
+field_name: field_eski_id
+entity_type: node
+bundle: yazi
+label: 'Eski ID'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

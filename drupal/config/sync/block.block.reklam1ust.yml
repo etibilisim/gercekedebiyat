@@ -1,0 +1,25 @@
+uuid: 79011802-c588-43fd-9523-228ddbecce52
+langcode: tr
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:80592f22-1cde-4361-86b9-539a5070103b'
+  module:
+    - block_content
+  theme:
+    - conference_lite
+id: reklam1ust
+theme: conference_lite
+region: header_top_highlighted_first
+weight: 0
+provider: null
+plugin: 'block_content:80592f22-1cde-4361-86b9-539a5070103b'
+settings:
+  id: 'block_content:80592f22-1cde-4361-86b9-539a5070103b'
+  label: 'Reklam 1 Üst'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

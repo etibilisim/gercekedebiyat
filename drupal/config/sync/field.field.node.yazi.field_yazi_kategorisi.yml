@@ -1,0 +1,29 @@
+uuid: 1824e11b-d235-4eb9-856e-f4ae413db600
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_yazi_kategorisi
+    - node.type.yazi
+    - taxonomy.vocabulary.yazi_kategorileri
+id: node.yazi.field_yazi_kategorisi
+field_name: field_yazi_kategorisi
+entity_type: node
+bundle: yazi
+label: 'Yazı Kategorisi'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      yazi_kategorileri: yazi_kategorileri
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

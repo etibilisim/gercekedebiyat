@@ -1,0 +1,23 @@
+uuid: 7f4ce969-74fd-4fb1-ac84-dc7c7a2f6f96
+langcode: tr
+status: true
+dependencies:
+  module:
+    - node
+id: karikatur_ve_yeni_cikanlar_url_yol_ayari
+label: 'Karikatür ve Yeni Çıkanlar URL Yol Ayarı'
+type: 'canonical_entities:node'
+pattern: '[node:content-type]/[node:title]'
+selection_criteria:
+  f168a9dd-1066-4c6a-a680-a561210c4f36:
+    id: node_type
+    bundles:
+      karikatur: karikatur
+      kitap_dergi_tanitimi: kitap_dergi_tanitimi
+    negate: false
+    context_mapping:
+      node: node
+    uuid: f168a9dd-1066-4c6a-a680-a561210c4f36
+selection_logic: and
+weight: -5
+relationships: {  }

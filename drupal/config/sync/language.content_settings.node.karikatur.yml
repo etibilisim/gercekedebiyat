@@ -1,0 +1,11 @@
+uuid: d5d35320-1bb1-430a-97be-ca62173a63d3
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.karikatur
+id: node.karikatur
+target_entity_type_id: node
+target_bundle: karikatur
+default_langcode: site_default
+language_alterable: false

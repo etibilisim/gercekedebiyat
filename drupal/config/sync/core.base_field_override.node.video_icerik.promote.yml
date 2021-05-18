@@ -1,0 +1,22 @@
+uuid: 7c0a1f1a-00b4-4e34-bc80-1edb26d06984
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.video_icerik
+id: node.video_icerik.promote
+field_name: promote
+entity_type: node
+bundle: video_icerik
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,29 @@
+uuid: 295ba432-e76f-4453-9e22-4fad4fbe28fc
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.field.user.user.user_picture
+    - image.style.kare_300x300
+  module:
+    - image
+    - user
+_core:
+  default_config_hash: V51QPCKkgNREKtSmB9Iu2wmAMEpktVpnzklWaZV8UYo
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  user_picture:
+    type: image
+    weight: 0
+    region: content
+    settings:
+      image_style: kare_300x300
+      image_link: ''
+    third_party_settings: {  }
+    label: hidden
+hidden:
+  langcode: true
+  member_for: true

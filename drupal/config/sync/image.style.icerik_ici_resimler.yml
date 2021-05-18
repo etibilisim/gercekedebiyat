@@ -1,0 +1,15 @@
+uuid: cb663cc6-1f01-467f-8418-b064c803534c
+langcode: tr
+status: true
+dependencies: {  }
+name: icerik_ici_resimler
+label: 'İçerik İçi Resimleri'
+effects:
+  dfc4fdfc-26d5-45c1-88e0-4d200698846e:
+    uuid: dfc4fdfc-26d5-45c1-88e0-4d200698846e
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 760
+      height: 500
+      anchor: center-center

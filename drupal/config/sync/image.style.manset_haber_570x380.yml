@@ -1,0 +1,15 @@
+uuid: 28c7227b-3d16-4b3d-902c-23449b05d7a2
+langcode: tr
+status: true
+dependencies: {  }
+name: manset_haber_570x380
+label: 'Manset Haber 570x380'
+effects:
+  5224fb24-67a3-4216-9b9c-823d36f10ed7:
+    uuid: 5224fb24-67a3-4216-9b9c-823d36f10ed7
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 570
+      height: 380
+      anchor: center-center

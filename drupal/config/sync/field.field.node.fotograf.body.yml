@@ -1,0 +1,23 @@
+uuid: b6299bc5-4f07-4f44-a266-71e72757b63f
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.fotograf
+  module:
+    - text
+id: node.fotograf.body
+field_name: body
+entity_type: node
+bundle: fotograf
+label: 'Yazı Alanı'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,8 @@
+uuid: 59c5fc83-3f57-4e22-8a25-c415531d67f5
+langcode: tr
+status: true
+dependencies: {  }
+id: sadece_tarih
+label: 'Sadece Tarih'
+locked: false
+pattern: 'd M Y'

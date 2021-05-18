@@ -1,0 +1,25 @@
+uuid: 0fc12a78-9586-424d-9a3e-a9b65233a04c
+langcode: tr
+status: true
+dependencies:
+  config:
+    - system.menu.ust-menu
+  module:
+    - system
+  theme:
+    - conference_lite
+id: ustmenu
+theme: conference_lite
+region: header_top_second
+weight: 0
+provider: null
+plugin: 'system_menu_block:ust-menu'
+settings:
+  id: 'system_menu_block:ust-menu'
+  label: 'Üst Menü'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

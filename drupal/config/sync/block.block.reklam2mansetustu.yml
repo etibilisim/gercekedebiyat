@@ -1,0 +1,25 @@
+uuid: c25c9697-92e2-4d5c-8e1e-7b570c142476
+langcode: tr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:125337b8-7d19-4e49-ae33-a83bbdac0617'
+  module:
+    - block_content
+  theme:
+    - conference_lite
+id: reklam2mansetustu
+theme: conference_lite
+region: content_top
+weight: -20
+provider: null
+plugin: 'block_content:125337b8-7d19-4e49-ae33-a83bbdac0617'
+settings:
+  id: 'block_content:125337b8-7d19-4e49-ae33-a83bbdac0617'
+  label: 'Reklam 2 Manşet Üstü'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

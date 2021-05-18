@@ -1,0 +1,22 @@
+uuid: e9a2def1-a511-4123-af8e-0ae4e6903092
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.fotograf
+id: node.fotograf.promote
+field_name: promote
+entity_type: node
+bundle: fotograf
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

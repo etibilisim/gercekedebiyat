@@ -1,0 +1,34 @@
+uuid: 9852e001-a386-4d5b-b4de-d12551b48d36
+langcode: tr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.fotograf.body
+    - field.field.node.fotograf.field_foto_galeri
+    - node.type.fotograf
+  module:
+    - text
+    - user
+id: node.fotograf.teaser
+targetEntityType: node
+bundle: fotograf
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  field_foto_galeri: true
+  langcode: true

@@ -1,0 +1,11 @@
+uuid: 8f919d2e-31d5-4b2a-8a94-c48787c34830
+langcode: tr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.yazi_kategorileri
+id: taxonomy_term.yazi_kategorileri
+target_entity_type_id: taxonomy_term
+target_bundle: yazi_kategorileri
+default_langcode: site_default
+language_alterable: false

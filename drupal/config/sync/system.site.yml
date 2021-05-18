@@ -1,0 +1,14 @@
+uuid: e84e4213-7d84-4aaa-874c-f5112404172c
+name: 'Gercek Edebiyat'
+mail: bilgi@gercekedebiyat.com
+slogan: 'Türk Edebiyatı Büyük Bir Edebiyattır...'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: tr
+default_langcode: tr
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

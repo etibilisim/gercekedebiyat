@@ -1,0 +1,31 @@
+uuid: 76f2819b-2bf1-4c28-b2bf-38a7f3dea844
+langcode: tr
+status: true
+dependencies:
+  config:
+    - views.view.yazarin_yazilari
+  module:
+    - system
+    - views
+  theme:
+    - conference_lite
+id: views_block__yazarin_yazilari_block_1
+theme: conference_lite
+region: content
+weight: -4
+provider: null
+plugin: 'views_block:yazarin_yazilari-block_1'
+settings:
+  id: 'views_block:yazarin_yazilari-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '/user/*'
+    negate: false
+    context_mapping: {  }

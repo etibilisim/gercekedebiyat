@@ -1,0 +1,36 @@
+uuid: db5c7953-ef04-4f04-a2d4-7ff8daab18cc
+langcode: tr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.karikatur.body
+    - field.field.node.karikatur.field_karikatur_gorselleri
+    - field.field.node.karikatur.field_one_cikan_gorsel
+    - node.type.karikatur
+  module:
+    - text
+    - user
+id: node.karikatur.teaser
+targetEntityType: node
+bundle: karikatur
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  field_karikatur_gorselleri: true
+  field_one_cikan_gorsel: true
+  langcode: true

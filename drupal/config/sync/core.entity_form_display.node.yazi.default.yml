@@ -1,0 +1,162 @@
+uuid: dc3eea29-2e49-4095-869d-eaf970e09992
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.field.node.yazi.body
+    - field.field.node.yazi.field_comment
+    - field.field.node.yazi.field_eski_id
+    - field.field.node.yazi.field_foto_galeri
+    - field.field.node.yazi.field_mansete_tasi
+    - field.field.node.yazi.field_one_cikan_gorsel
+    - field.field.node.yazi.field_one_cikan_icerik
+    - field.field.node.yazi.field_spot
+    - field.field.node.yazi.field_surmansete_tasi
+    - field.field.node.yazi.field_video_url
+    - field.field.node.yazi.field_yazi_kategorisi
+    - image.style.thumbnail
+    - node.type.yazi
+  module:
+    - comment
+    - image
+    - path
+    - text
+    - video_embed_field
+id: node.yazi.default
+targetEntityType: node
+bundle: yazi
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 10
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    region: content
+  created:
+    type: datetime_timestamp
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_comment:
+    weight: 17
+    settings: {  }
+    third_party_settings: {  }
+    type: comment_default
+    region: content
+  field_foto_galeri:
+    weight: 11
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_mansete_tasi:
+    weight: 14
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_one_cikan_gorsel:
+    weight: 9
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_one_cikan_icerik:
+    weight: 16
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_spot:
+    weight: 8
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_surmansete_tasi:
+    weight: 15
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_video_url:
+    weight: 12
+    settings: {  }
+    third_party_settings: {  }
+    type: video_embed_field_textfield
+    region: content
+  field_yazi_kategorisi:
+    weight: 13
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+  langcode:
+    type: language_select
+    weight: 1
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 4
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 7
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 5
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    region: content
+    third_party_settings: {  }
+hidden:
+  field_eski_id: true

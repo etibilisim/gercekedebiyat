@@ -1,0 +1,34 @@
+uuid: f595a1ad-a9f9-4816-b9cd-f689aacd28bb
+langcode: tr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.kitap_dergi_tanitimi.body
+    - field.field.node.kitap_dergi_tanitimi.field_one_cikan_gorsel
+    - node.type.kitap_dergi_tanitimi
+  module:
+    - text
+    - user
+id: node.kitap_dergi_tanitimi.teaser
+targetEntityType: node
+bundle: kitap_dergi_tanitimi
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  field_one_cikan_gorsel: true
+  langcode: true

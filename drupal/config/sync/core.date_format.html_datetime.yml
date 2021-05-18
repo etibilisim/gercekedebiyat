@@ -1,0 +1,10 @@
+uuid: 54a993ae-3a5a-42d2-a98c-13d396cd6f33
+langcode: tr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: jxfClwZIRXIdcvMrE--WkcZxDGUVoOIE3Sm2NRZlFuE
+id: html_datetime
+label: 'HTML Tarih Saat'
+locked: true
+pattern: 'Y-m-d\TH:i:sO'

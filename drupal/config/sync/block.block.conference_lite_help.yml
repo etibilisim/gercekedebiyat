@@ -1,0 +1,22 @@
+uuid: 7fd12ec1-7a11-4ead-b23b-a58b98127161
+langcode: tr
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - conference_lite
+_core:
+  default_config_hash: OQrpSIuf9OVY1OwYIL9dynTFESx8AnwInSTw3B-RHCA
+id: conference_lite_help
+theme: conference_lite
+region: content
+weight: -13
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

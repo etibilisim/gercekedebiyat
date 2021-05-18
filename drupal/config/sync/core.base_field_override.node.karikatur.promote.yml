@@ -1,0 +1,22 @@
+uuid: 6f0a4673-99bf-49ef-9e80-f953b76815af
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.karikatur
+id: node.karikatur.promote
+field_name: promote
+entity_type: node
+bundle: karikatur
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,13 @@
+uuid: 44b8e0c9-8c46-4931-81e5-3571a48864cb
+langcode: tr
+status: true
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: tWOIjSMobEWOFZddMkNqb9JySbOVwE1diC6NRqcfLTk
+id: comment_unpublish_action
+label: 'Yorumu yayından al'
+type: comment
+plugin: 'entity:unpublish_action:comment'
+configuration: {  }

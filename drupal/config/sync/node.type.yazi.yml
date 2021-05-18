@@ -1,0 +1,17 @@
+uuid: 48d5cf52-8f1a-4540-bf26-056b709caadf
+langcode: tr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Yazı
+type: yazi
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

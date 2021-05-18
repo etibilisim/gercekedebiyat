@@ -1,0 +1,25 @@
+uuid: 164aba7b-e956-4107-9485-76cc8bde64a1
+langcode: tr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:dee10014-934b-40f3-9ae2-08959cdc735c'
+  module:
+    - block_content
+  theme:
+    - conference_lite
+id: sosyalmedyaalt
+theme: conference_lite
+region: footer_bottom
+weight: -17
+provider: null
+plugin: 'block_content:dee10014-934b-40f3-9ae2-08959cdc735c'
+settings:
+  id: 'block_content:dee10014-934b-40f3-9ae2-08959cdc735c'
+  label: 'Sosyal Medya Alt'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

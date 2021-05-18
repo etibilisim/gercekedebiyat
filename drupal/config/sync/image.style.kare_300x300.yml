@@ -1,0 +1,15 @@
+uuid: 5c4549a2-1676-4bd0-bd19-e1cd88d5b0b5
+langcode: tr
+status: true
+dependencies: {  }
+name: kare_300x300
+label: 'Kare 300x300'
+effects:
+  fc9114fe-1306-4c29-88d4-957b7678c225:
+    uuid: fc9114fe-1306-4c29-88d4-957b7678c225
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 300
+      height: 300
+      anchor: center-center

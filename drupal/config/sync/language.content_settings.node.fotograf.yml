@@ -1,0 +1,11 @@
+uuid: f79e8434-8425-4aa2-a0e0-f3ee5ffaeb55
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.fotograf
+id: node.fotograf
+target_entity_type_id: node
+target_bundle: fotograf
+default_langcode: site_default
+language_alterable: false

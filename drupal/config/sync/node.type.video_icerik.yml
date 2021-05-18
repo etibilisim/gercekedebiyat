@@ -1,0 +1,17 @@
+uuid: ea8948ca-f30d-4497-ac52-d7cf167b79f2
+langcode: tr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Video İçerik'
+type: video_icerik
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

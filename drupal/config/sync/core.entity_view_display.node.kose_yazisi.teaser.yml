@@ -1,0 +1,36 @@
+uuid: a0e9265c-4f14-4350-b844-1c344efedfc6
+langcode: tr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.kose_yazisi.body
+    - field.field.node.kose_yazisi.field_mansete_tasi
+    - field.field.node.kose_yazisi.field_one_cikan_gorsel
+    - node.type.kose_yazisi
+  module:
+    - text
+    - user
+id: node.kose_yazisi.teaser
+targetEntityType: node
+bundle: kose_yazisi
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  field_mansete_tasi: true
+  field_one_cikan_gorsel: true
+  langcode: true

@@ -1,0 +1,25 @@
+uuid: 7517b218-d342-464c-9b61-11bf3d9728ed
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_video_url
+    - node.type.video_icerik
+  module:
+    - video_embed_field
+id: node.video_icerik.field_video_url
+field_name: field_video_url
+entity_type: node
+bundle: video_icerik
+label: 'Video URL'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    vimeo: vimeo
+    youtube_playlist: youtube_playlist
+    youtube: youtube
+field_type: video_embed_field

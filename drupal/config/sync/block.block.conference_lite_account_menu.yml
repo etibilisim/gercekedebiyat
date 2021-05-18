@@ -1,0 +1,27 @@
+uuid: c39d4c24-4c02-4ddf-bef9-cf2ec0f3e1a3
+langcode: tr
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - conference_lite
+_core:
+  default_config_hash: YtmuKvKCZrCx1HI-XCG32h0gdGGxZmovCNdEFxs3TdM
+id: conference_lite_account_menu
+theme: conference_lite
+region: hidden_blocks_collection
+weight: -17
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

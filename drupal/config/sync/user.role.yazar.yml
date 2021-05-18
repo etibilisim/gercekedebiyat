@@ -1,0 +1,9 @@
+uuid: aab84ec7-5ceb-4399-a769-3918a62828c5
+langcode: tr
+status: true
+dependencies: {  }
+id: yazar
+label: Yazar
+weight: 3
+is_admin: null
+permissions: {  }

@@ -1,0 +1,8 @@
+uuid: f65d29d5-50a0-4a64-b984-5da7fe73a9b2
+langcode: tr
+status: true
+dependencies: {  }
+id: ust-menu
+label: 'Üst Menü'
+description: ''
+locked: false

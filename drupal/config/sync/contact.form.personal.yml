@@ -1,0 +1,13 @@
+uuid: 37db7f43-da22-4c61-908c-b7840e06f302
+langcode: tr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: jonvgt3CkUM2eMLTFwWfHileWWDC4YtXCuIlCahTk_I
+id: personal
+label: 'Kişisel iletişim formu'
+recipients: {  }
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

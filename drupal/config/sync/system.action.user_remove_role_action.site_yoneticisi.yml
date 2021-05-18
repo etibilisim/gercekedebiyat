@@ -1,0 +1,14 @@
+uuid: f8633c9f-a019-417c-b260-009ef714828b
+langcode: tr
+status: true
+dependencies:
+  config:
+    - user.role.site_yoneticisi
+  module:
+    - user
+id: user_remove_role_action.site_yoneticisi
+label: 'Site Yöneticisi rolünü seçili kullanıcı(lar)dan alın.'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: site_yoneticisi

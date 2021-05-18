@@ -1,0 +1,30 @@
+uuid: 9873284a-1129-4b73-98ef-9fccbe900da8
+langcode: tr
+status: true
+dependencies:
+  config:
+    - views.view.yeni_cikanlar
+  module:
+    - system
+    - views
+  theme:
+    - conference_lite
+id: views_block__yeni_cikanlar_block_1
+theme: conference_lite
+region: featured_bottom
+weight: 0
+provider: null
+plugin: 'views_block:yeni_cikanlar-block_1'
+settings:
+  id: 'views_block:yeni_cikanlar-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

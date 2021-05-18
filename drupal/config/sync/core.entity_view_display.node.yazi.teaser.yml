@@ -1,0 +1,52 @@
+uuid: 3d2940a6-66b7-4541-a43c-198d9f49ae36
+langcode: tr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.yazi.body
+    - field.field.node.yazi.field_comment
+    - field.field.node.yazi.field_eski_id
+    - field.field.node.yazi.field_foto_galeri
+    - field.field.node.yazi.field_mansete_tasi
+    - field.field.node.yazi.field_one_cikan_gorsel
+    - field.field.node.yazi.field_one_cikan_icerik
+    - field.field.node.yazi.field_spot
+    - field.field.node.yazi.field_surmansete_tasi
+    - field.field.node.yazi.field_video_url
+    - field.field.node.yazi.field_yazi_kategorisi
+    - node.type.yazi
+  module:
+    - text
+    - user
+id: node.yazi.teaser
+targetEntityType: node
+bundle: yazi
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  field_comment: true
+  field_eski_id: true
+  field_foto_galeri: true
+  field_mansete_tasi: true
+  field_one_cikan_gorsel: true
+  field_one_cikan_icerik: true
+  field_spot: true
+  field_surmansete_tasi: true
+  field_video_url: true
+  field_yazi_kategorisi: true
+  langcode: true

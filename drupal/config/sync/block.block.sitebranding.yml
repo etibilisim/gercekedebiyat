@@ -1,0 +1,23 @@
+uuid: c9135b8c-fdb6-4dfc-82a6-801d3707b38d
+langcode: tr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - conference_lite
+id: sitebranding
+theme: conference_lite
+region: footer_bottom
+weight: -18
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

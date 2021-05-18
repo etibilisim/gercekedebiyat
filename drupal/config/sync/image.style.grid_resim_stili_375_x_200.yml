@@ -1,0 +1,15 @@
+uuid: 542b5426-dd94-4c33-82bf-3aa1d828f331
+langcode: tr
+status: true
+dependencies: {  }
+name: grid_resim_stili_375_x_200
+label: 'Grid Resim Stili 375 x 200'
+effects:
+  8500ddb3-55ab-4d80-b3d6-f6c87faee303:
+    uuid: 8500ddb3-55ab-4d80-b3d6-f6c87faee303
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 375
+      height: 200
+      anchor: center-center

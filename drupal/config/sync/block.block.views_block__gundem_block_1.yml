@@ -1,0 +1,24 @@
+uuid: 0b5faf94-3331-47c8-8b1e-533284e8927e
+langcode: tr
+status: true
+dependencies:
+  config:
+    - views.view.gundem
+  module:
+    - views
+  theme:
+    - conference_lite
+id: views_block__gundem_block_1
+theme: conference_lite
+region: sidebar_second
+weight: -16
+provider: null
+plugin: 'views_block:gundem-block_1'
+settings:
+  id: 'views_block:gundem-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

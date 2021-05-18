@@ -1,0 +1,17 @@
+uuid: ff702658-90ba-43d1-8b8e-e2fd989246ab
+langcode: tr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Karikatür
+type: karikatur
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

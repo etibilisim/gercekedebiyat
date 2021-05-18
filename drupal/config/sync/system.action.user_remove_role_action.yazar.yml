@@ -1,0 +1,14 @@
+uuid: bce5c94a-207a-4980-a953-0f68494418a7
+langcode: tr
+status: true
+dependencies:
+  config:
+    - user.role.yazar
+  module:
+    - user
+id: user_remove_role_action.yazar
+label: 'Yazar rolünü seçili kullanıcı(lar)dan alın.'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: yazar

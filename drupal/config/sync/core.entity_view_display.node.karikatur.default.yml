@@ -1,0 +1,52 @@
+uuid: 5b3c9588-6887-4dba-b1af-90cf2bf3a3c4
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.field.node.karikatur.body
+    - field.field.node.karikatur.field_karikatur_gorselleri
+    - field.field.node.karikatur.field_one_cikan_gorsel
+    - image.style.one_cikan_gorsel_760x500
+    - node.type.karikatur
+  module:
+    - image
+    - text
+    - user
+id: node.karikatur.default
+targetEntityType: node
+bundle: karikatur
+mode: default
+content:
+  addtoany:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_karikatur_gorselleri:
+    weight: 3
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_one_cikan_gorsel:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: one_cikan_gorsel_760x500
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  langcode: true
+  links: true

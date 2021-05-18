@@ -1,0 +1,30 @@
+uuid: 0d7906de-c863-473f-a608-2b15a316da0a
+langcode: tr
+status: true
+dependencies:
+  config:
+    - views.view.foto_galeri
+  module:
+    - system
+    - views
+  theme:
+    - conference_lite
+id: views_block__foto_galeri_block_1
+theme: conference_lite
+region: featured_top
+weight: -14
+provider: null
+plugin: 'views_block:foto_galeri-block_1'
+settings:
+  id: 'views_block:foto_galeri-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

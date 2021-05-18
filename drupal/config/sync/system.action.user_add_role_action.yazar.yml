@@ -1,0 +1,14 @@
+uuid: fe5262eb-eb8a-4e65-bb37-7f59c62ba62a
+langcode: tr
+status: true
+dependencies:
+  config:
+    - user.role.yazar
+  module:
+    - user
+id: user_add_role_action.yazar
+label: 'Yazar rolünü seçili kullanıcı(lar)a ekleyin.'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: yazar

@@ -1,0 +1,8 @@
+uuid: d97e83c9-6f44-4401-99ca-a486b85a467d
+langcode: tr
+status: true
+dependencies: {  }
+id: tarih_saat
+label: 'Tarih - Saat'
+locked: false
+pattern: 'd M Y H:i'

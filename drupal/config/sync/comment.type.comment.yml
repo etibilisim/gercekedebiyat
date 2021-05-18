@@ -1,0 +1,10 @@
+uuid: 90376ab8-5009-4bfe-b739-743eefee8981
+langcode: tr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: bqZsN31T2n0UjcbyCpOPi9D2iO0sAOHR7FnEs9qMvaA
+id: comment
+label: 'Varsayılan yorumlar'
+target_entity_type_id: node
+description: 'İçeriğe yorum yapılabilmesini sağlar'

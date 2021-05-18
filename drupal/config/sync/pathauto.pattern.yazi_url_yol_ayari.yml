@@ -1,0 +1,22 @@
+uuid: 031c0fc8-889b-4e49-b59b-efb8db9f37a0
+langcode: tr
+status: true
+dependencies:
+  module:
+    - node
+id: yazi_url_yol_ayari
+label: 'Yazı URL Yol Ayarı'
+type: 'canonical_entities:node'
+pattern: '[node:field_yazi_kategorisi]/[node:title]'
+selection_criteria:
+  0eaf3122-7ba0-4588-b630-59648d05f5c3:
+    id: node_type
+    bundles:
+      yazi: yazi
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 0eaf3122-7ba0-4588-b630-59648d05f5c3
+selection_logic: and
+weight: -5
+relationships: {  }

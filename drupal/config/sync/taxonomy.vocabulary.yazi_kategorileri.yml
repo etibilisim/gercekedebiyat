@@ -1,0 +1,8 @@
+uuid: 1b28e494-2237-4648-9ffc-d8099df9764f
+langcode: tr
+status: true
+dependencies: {  }
+name: 'Yazı Kategorileri'
+vid: yazi_kategorileri
+description: ''
+weight: 0

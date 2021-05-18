@@ -1,0 +1,15 @@
+uuid: ac49a914-502f-45e9-9fbd-cb36fd83981c
+langcode: tr
+status: true
+dependencies: {  }
+name: surmanset_haber_280x185
+label: 'Süranset Haber 280x185'
+effects:
+  964c9e18-43c6-4efe-bc15-f76b088fe56b:
+    uuid: 964c9e18-43c6-4efe-bc15-f76b088fe56b
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 280
+      height: 185
+      anchor: center-center
