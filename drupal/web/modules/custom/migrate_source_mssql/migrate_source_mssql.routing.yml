@@ -1,7 +1,0 @@
-migrate_source_mssql.form:
- path: 'admin/migrate_mssql/dbconnection'
- defaults:
-   _title: 'Enter Mssql DB connection details'
-   _form: '\Drupal\migrate_source_mssql\Form\DbconnectionForm'
- requirements:
-   _permission: 'access content'
